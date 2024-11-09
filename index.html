@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <script src="./main.js">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    body{
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        background-color: #111111;
+        color: white;
+        font-size: 16px;
+    }
+</style>
+
+<p style="line-height: 11;">
+    <br>
+</p>
+
+<p style="font-size: 75px; font-family: 'Pacifico', cursive; line-height: 0;">
+    <br>
+    date-checker
+</p>
+<p style = "font-size: 18px;">
+    hello! ever wondered what day of the week a certain day is?
+    <br>
+    well lucky for you, i created this program to calculate which day of the week that date is!
+    <br>
+    (unfortunately this program cannot calculate dates before 1753)
+</p>
+
+<br>
+
+<form>
+    <label for="day">day:</label>
+    <br>
+    <input type="text" id="day" name="day">
+    <br>
+    <label for="month">month (in number):</label>
+    <br>
+    <input type="text" id="month" name="month">
+    <br>
+    <label for="year">year:</label>
+    <br>
+    <input type="text" id="year" name="year">
+    <br>
+    <br>
+    <button type="button" onclick="checker()" style="font-family: 'Pacifico', cursive;">Calculate</button>
+</form>
+
+<br>
+
+<p id="whatDay" style="font-size: 30px;">
+
+</p>
